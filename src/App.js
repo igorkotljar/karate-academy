@@ -1,12 +1,16 @@
 import './App.css';
+import Contact from './Contact';
 import NavBar from './NavBar';
 
 
 function App() {
   return (
-
-      <NavBar />
-      
+      <div>
+        <NavBar />
+        <div>
+          <h1>Haha so far I have done only menu :D</h1>
+        </div>
+      </div>
   );
 }
 
