@@ -36,7 +36,11 @@ nav {
   nav .nav-links a:hover {
     border-bottom: 1px solid #fff;
   }
-  
+
+  a:visited {
+    color :#fff;
+  }
+
   @media all and (max-width: 768px){
     nav .burger {
       display: block;
