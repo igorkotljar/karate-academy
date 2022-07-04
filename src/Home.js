@@ -5,7 +5,8 @@ function Home() {
   return (
     <div>
         <NavBar/>
-        <p>At least you can test responsivnes now</p>
+        <h1>Home, Service and Contact pages available (lol) only</h1>
+        <p></p>
     </div>
   )
 }

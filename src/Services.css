@@ -1,0 +1,61 @@
+.services { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px; 
+    /* border: 1px solid black;  */
+    text-align: center;
+    align-items: center;
+} 
+
+.qaService { 
+    margin: 10px; 
+    /* border: 1px solid #fff;   */
+    width: 230px;
+    height:230px;
+    border-radius: 15px;  
+    background-image: url('img/selenium.png');
+    background-size: 100% 100%;
+}
+
+.reactjsService { 
+    margin: 10px; 
+    /* border: 2px solid rgb(0, 0, 0);   */
+    width: 230px;
+    height:230px;
+    background-image: url('img/react.gif');
+    background-size: 100% 100%;
+}
+
+.devopsService { 
+    margin: 10px; 
+    /* border: 2px solid rgb(0, 0, 0);  */
+    background-color: red;
+    width: 230px;
+    height:230px;
+    background-image: url('img/devops.gif');
+    background-size: 100% 100%;
+}
+
+@media all and (max-width: 1024px){
+    .services { 
+        display: block; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-gap: 10px; 
+        /* border: 1px solid black;  */
+        text-align: center;
+        align-items: center;
+    } 
+
+    .qaService {
+        width: 150px;
+        height:150px;
+    }
+    .reactjsService {
+        width: 150px;
+        height:150px;
+    }
+    .devopsService {
+        width: 150px;
+        height:150px;
+    }
+}
