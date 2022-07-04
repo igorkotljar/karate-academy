@@ -8,7 +8,10 @@ const [open, setOpen] = useState(false);
   return (
     <div>
         <nav>
-            <div className='logo'>QA Shop</div>
+            <div className='logo'>
+              <i className="fa-solid fa-laptop-code navLogo"></i>
+                QA Shop
+            </div>
             <ul className='nav-links' style={{transform: open ? "translateX(0px)" : ""}}>
                 <li><Link to="/">Home</Link></li>
                 <li><a>Product</a></li>

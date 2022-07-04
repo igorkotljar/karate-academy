@@ -41,7 +41,7 @@ nav {
     color :#fff;
   }
 
-  @media all and (max-width: 768px){
+  @media all and (max-width: 1024px){
     nav .burger {
       display: block;
     }
@@ -54,7 +54,7 @@ nav {
       background: #f86161;
       padding: 40px;
       width: 50%;
-      transform: translateX(-500px);
+      transform: translateX(-800px);
     }
     nav .nav-links li {
       padding: 25px;
@@ -67,5 +67,8 @@ nav {
     
     nav .nav-links a:hover {
       border-bottom: 0px solid #fff;
+      transform: scale(1.2);
+      color: #fff;
+      opacity: 1;
     }
   }

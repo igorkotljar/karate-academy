@@ -1,11 +1,12 @@
 import React from 'react'
 import NavBar from './NavBar'
+import ComingSoon from './ComingSoon'
 
 function Contact() {
   return (
     <div>
-    <NavBar/>
-    <h1>QQQQ CONTACT</h1>
+      <NavBar/>
+      <ComingSoon/>
     </div>
   )
 }
