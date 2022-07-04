@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
-
+@import "NavBar.css";
 
 * {
   margin: 0;
@@ -13,72 +13,4 @@ a {
 
 li {
   list-style-type: none;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  min-height: 10vh;
-  align-items: center;
-  font-family: 'Inter', sans-serif;
-  background-color: #f96d6d;
-  color: #fff;
-}
-
-nav .logo {
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-nav .nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 32%;
-  transition: 0.5s ease-in-out;
-}
-
-nav .burger {
-  font-size: 30px;
-  display: none;
-  cursor: pointer;
-}
-
-nav .nav-links a {
-  font-size: 18px;
-  font-weight: normal;
-  cursor: pointer;
-}
-
-nav .nav-links a:hover {
-  border-bottom: 1px solid #fff;
-}
-
-@media all and (max-width: 768px){
-  nav .burger {
-    display: block;
-  }
-  nav .nav-links {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    background: #f86161;
-    padding: 40px;
-    width: 50%;
-    transform: translateX(-500px);
-  }
-  nav .nav-links li {
-    padding: 25px;
-    border-bottom: 1px solid #ccc;
-  }
-
-  nav .nav-links li:last-of-type {
-    border-bottom: 0px solid #ccc;
-  }
-  
-  nav .nav-links a:hover {
-    border-bottom: 0px solid #fff;
-  }
 }
