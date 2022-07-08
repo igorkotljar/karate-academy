@@ -36,6 +36,10 @@
     background-size: 100% 100%;
 }
 
+/* body{
+    background-image: url('img/bg.webp');
+} */
+
 @media all and (max-width: 1024px){
     .services { 
         display: block; 
