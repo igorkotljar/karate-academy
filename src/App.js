@@ -7,6 +7,7 @@ import React from "react";
 import Services from "./Services";
 import TestAPI from "./TestAPI";
 import CatAPI from "./CatAPI";
+import DogAPI from "./DogAPI";
 
 function App() {
   return (
@@ -17,8 +18,13 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
         </Routes>
-        <TestAPI />
-        <CatAPI />
+        <div>
+          <TestAPI />
+        </div>
+        <div>
+          <CatAPI />
+        </div>
+        <DogAPI />
       </div>
     </div>
   );
