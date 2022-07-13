@@ -18,13 +18,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
         </Routes>
-        <div>
-          <TestAPI />
-        </div>
-        <div>
-          <CatAPI />
-        </div>
-        <DogAPI />
       </div>
     </div>
   );

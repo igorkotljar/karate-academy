@@ -2,18 +2,21 @@ import React from "react";
 import { useState } from "react";
 
 function CatAPI() {
-  const [fact, setFact] = useState(" Im showing random facts about cats ");
-  const [length, setLength] = useState(" I am going to show string length ");
+  // const [fact, setFact] = useState(" Im showing random facts about cats ");
+  // const [length, setLength] = useState(" I am going to show string length ");
+
+  const [cat, setCat] = useState({fact: '', length: 0});
+
 
   const fetchData = () => {
     fetch("https://catfact.ninja/fact")
       .then((response) => response.json())
       .then((response) => {
-        setFact(response.fact);
-        setLength(response.length);
+        setCat(response);
+        // setLength(response.length);
       })
       .catch(() => {
-        setFact("ERROR");
+        setCat("ERROR");
       });
   };
 
@@ -23,9 +26,9 @@ function CatAPI() {
         <div className="CatApi">
           <button onClick={fetchData} className="btn">Go</button>
           <p>
-            <b>{length}</b>
+            <b>{cat.length}</b>
           </p>
-          <p>{fact}</p>
+          <p>{cat.fact}</p>
         </div>
       </div>
     </div>
