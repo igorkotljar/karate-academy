@@ -2,7 +2,7 @@
   "name": "web",
   "version": "0.1.0",
   "homepage": "https://igorkotljar.github.io/My-First-React/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
