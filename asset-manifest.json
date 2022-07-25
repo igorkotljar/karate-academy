@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io/My-First-React/static/css/main.d264b093.css",
-    "main.js": "/github.io/My-First-React/static/js/main.14a4ffe4.js",
-    "static/media/devops.gif": "/github.io/My-First-React/static/media/devops.8030209b855cfd8b419a.gif",
-    "static/media/react.gif": "/github.io/My-First-React/static/media/react.c94a2c770d1244558573.gif",
-    "static/media/selenium.png": "/github.io/My-First-React/static/media/selenium.8acd00a91ebc15e2633e.png",
-    "index.html": "/github.io/My-First-React/index.html",
-    "main.d264b093.css.map": "/github.io/My-First-React/static/css/main.d264b093.css.map",
-    "main.14a4ffe4.js.map": "/github.io/My-First-React/static/js/main.14a4ffe4.js.map"
+    "main.css": "/igorkotljar/My-First-React/static/css/main.33a1cf25.css",
+    "main.js": "/igorkotljar/My-First-React/static/js/main.14a4ffe4.js",
+    "static/media/devops.gif": "/igorkotljar/My-First-React/static/media/devops.8030209b855cfd8b419a.gif",
+    "static/media/react.gif": "/igorkotljar/My-First-React/static/media/react.c94a2c770d1244558573.gif",
+    "static/media/selenium.png": "/igorkotljar/My-First-React/static/media/selenium.8acd00a91ebc15e2633e.png",
+    "index.html": "/igorkotljar/My-First-React/index.html",
+    "main.33a1cf25.css.map": "/igorkotljar/My-First-React/static/css/main.33a1cf25.css.map",
+    "main.14a4ffe4.js.map": "/igorkotljar/My-First-React/static/js/main.14a4ffe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d264b093.css",
+    "static/css/main.33a1cf25.css",
     "static/js/main.14a4ffe4.js"
   ]
 }
