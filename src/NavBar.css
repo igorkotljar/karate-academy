@@ -4,7 +4,7 @@ nav {
     min-height: 10vh;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    background-color: #f96d6d;
+    background-color: #05668d;
     color: #fff;
   }
   
@@ -51,7 +51,7 @@ nav {
       top: 0;
       left: 0;
       height: 100vh;
-      background: #f86161;
+      background: #05668d;
       padding: 40px;
       width: 50%;
       transform: translateX(-800px);

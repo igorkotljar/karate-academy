@@ -8,7 +8,7 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <h1>Home, Service and Contact pages available (lol) only</h1>
+      <h1 className="text-4">Home, Service and Contact pages available (lol) only</h1>
       <p></p>
       <div>
         <div>
