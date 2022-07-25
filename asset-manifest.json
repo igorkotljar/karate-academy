@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/My-First-React/static/css/main.ec9a95b5.css",
-    "main.js": "/My-First-React/static/js/main.14a4ffe4.js",
-    "static/media/devops.gif": "/My-First-React/static/media/devops.8030209b855cfd8b419a.gif",
-    "static/media/react.gif": "/My-First-React/static/media/react.c94a2c770d1244558573.gif",
-    "static/media/selenium.png": "/My-First-React/static/media/selenium.8acd00a91ebc15e2633e.png",
-    "index.html": "/My-First-React/index.html",
-    "main.ec9a95b5.css.map": "/My-First-React/static/css/main.ec9a95b5.css.map",
-    "main.14a4ffe4.js.map": "/My-First-React/static/js/main.14a4ffe4.js.map"
+    "main.css": "/static/css/main.1d6e4104.css",
+    "main.js": "/static/js/main.14a4ffe4.js",
+    "static/media/devops.gif": "/static/media/devops.8030209b855cfd8b419a.gif",
+    "static/media/react.gif": "/static/media/react.c94a2c770d1244558573.gif",
+    "static/media/selenium.png": "/static/media/selenium.8acd00a91ebc15e2633e.png",
+    "index.html": "/index.html",
+    "main.1d6e4104.css.map": "/static/css/main.1d6e4104.css.map",
+    "main.14a4ffe4.js.map": "/static/js/main.14a4ffe4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9a95b5.css",
+    "static/css/main.1d6e4104.css",
     "static/js/main.14a4ffe4.js"
   ]
 }
