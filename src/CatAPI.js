@@ -1,12 +1,19 @@
+import { Button } from "@mui/material";
 import React from "react";
 import { useState } from "react";
+import { styled } from '@mui/material/styles';
 
 function CatAPI() {
   // const [fact, setFact] = useState(" Im showing random facts about cats ");
   // const [length, setLength] = useState(" I am going to show string length ");
 
-  const [cat, setCat] = useState({fact: '', length: 0});
+  const [cat, setCat, isLoading] = useState({fact: '', length: 0});
 
+  const Div = styled('div')(({ theme }) => ({
+    ...theme.typography.button,
+    backgroundColor: theme.palette.background.paper,
+    padding: theme.spacing(1),
+  }));
 
   const fetchData = () => {
     fetch("https://catfact.ninja/fact")
@@ -16,7 +23,7 @@ function CatAPI() {
         // setLength(response.length);
       })
       .catch(() => {
-        setCat("ERROR");
+        isLoading("ERROR");
       });
   };
 
@@ -24,11 +31,11 @@ function CatAPI() {
     <div>
       <div className="wrapper">
         <div className="CatApi">
-          <button onClick={fetchData} className="btn">Go</button>
+          <Button onClick={fetchData} variant="outlined">Go</Button>
           <p>
             <b>{cat.length}</b>
           </p>
-          <p>{cat.fact}</p>
+          <Div>{cat.fact}</Div>
         </div>
       </div>
     </div>
