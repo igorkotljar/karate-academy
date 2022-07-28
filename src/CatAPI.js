@@ -27,10 +27,10 @@ function CatAPI() {
   };
 
   return (
-    <div className="catDiv">
-      <Grid
+    <div >
+      <Grid className="catDiv"
         container
-        spacing={2}
+        spacing={0}
         textAlign="center"
         // alignItems="center"
         // justifyContent="center"
@@ -40,11 +40,11 @@ function CatAPI() {
             Go
           </Button>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <Div>Text Length: </Div>
           <Div>{cat.length}</Div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={12} md={6}>
           <Div>{cat.fact}</Div>
         </Grid>
       </Grid>

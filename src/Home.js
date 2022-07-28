@@ -8,12 +8,7 @@ function Home() {
   return (
     <div>
       <NavBar />
-      <h1 className="text-4">Home, Service and Contact pages available (lol) only</h1>
-      <p></p>
       <div>
-        <div>
-          <TestAPI />
-        </div>
         <div>
           <CatAPI />
         </div>
