@@ -20,7 +20,6 @@ function CatAPI() {
       .then((response) => response.json())
       .then((response) => {
         setCat(response);
-        // setLength(response.length);
       })
       .catch(() => {
         isLoading("ERROR");

@@ -31,6 +31,8 @@ nav {
     font-size: 18px;
     font-weight: normal;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
   }
   
   nav .nav-links a:hover {
