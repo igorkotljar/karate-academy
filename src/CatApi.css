@@ -2,6 +2,11 @@
   line-height: 52px; /* within paragraph */
 }
 
+.catDiv{
+  border: #2980b9 2px solid;
+  padding: 25px;
+}
+
 .btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #2980b9);

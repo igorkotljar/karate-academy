@@ -1,15 +1,15 @@
-import { Button } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import React from "react";
 import { useState } from "react";
-import { styled } from '@mui/material/styles';
+import { styled } from "@mui/material/styles";
 
 function CatAPI() {
   // const [fact, setFact] = useState(" Im showing random facts about cats ");
   // const [length, setLength] = useState(" I am going to show string length ");
 
-  const [cat, setCat, isLoading] = useState({fact: '', length: 0});
+  const [cat, setCat, isLoading] = useState({ fact: "", length: "" });
 
-  const Div = styled('div')(({ theme }) => ({
+  const Div = styled("div")(({ theme }) => ({
     ...theme.typography.button,
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(1),
@@ -28,16 +28,27 @@ function CatAPI() {
   };
 
   return (
-    <div>
-      <div className="wrapper">
-        <div className="CatApi">
-          <Button onClick={fetchData} variant="outlined">Go</Button>
-          <p>
-            <b>{cat.length}</b>
-          </p>
+    <div className="catDiv">
+      <Grid
+        container
+        spacing={2}
+        textAlign="center"
+        // alignItems="center"
+        // justifyContent="center"
+      >
+        <Grid item xs={12}>
+          <Button onClick={fetchData} variant="outlined">
+            Go
+          </Button>
+        </Grid>
+        <Grid item xs={6}>
+          <Div>Text Length: </Div>
+          <Div>{cat.length}</Div>
+        </Grid>
+        <Grid item xs={6}>
           <Div>{cat.fact}</Div>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     </div>
   );
 }
