@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { styled } from "@mui/material/styles";
-import { Button } from "@mui/material";
+import { Button, CardMedia } from "@mui/material";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Stack from "@mui/material/Stack";
@@ -27,18 +27,16 @@ function DogAPI() {
 
   return (
     <div>
-      <Box sx={{ width: "100%" }}>
-        <Stack>
-          <Item>
-            <Button onClick={fetchData} variant="outlined">
-              Get image
-            </Button>
-          </Item>
-          <Item>
-            <img className="dogImg" src={message} />
-          </Item>
-        </Stack>
-      </Box>
+      <Grid container spacing={0} textAlign="center">
+        <Grid xs={12}>
+          <Button onClick={fetchData} variant="outlined">
+            Get image
+          </Button>
+          <Grid xs={12}>
+           <img className="dogImg" src={message} /> 
+          </Grid>
+        </Grid>
+      </Grid>
     </div>
   );
 }
