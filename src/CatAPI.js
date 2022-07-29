@@ -37,7 +37,7 @@ function CatAPI() {
       >
         <Grid item xs={12}>
           <Button onClick={fetchData} variant="outlined">
-            Go
+            Go  
           </Button>
         </Grid>
         <Grid item xs={12} md={6}>
