@@ -1,9 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import { styled } from "@mui/material/styles";
-import { Avatar, Button } from "@mui/material";
+import {  Button } from "@mui/material";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 
 function DogAPI() {
   const [message, setMessage, isLoading] = useState("random img?:  ");
@@ -34,8 +32,7 @@ function DogAPI() {
           </Button>
         </Grid>
         <Grid xs={12}>
-          {/* <Avatar src={message} sx={{ width: 250, height: 250 }}/> */}
-          <img className="dogImg" src={message} />
+          <img className="dogImg" src={message} alt="random dog pic" />
         </Grid>
       </Grid>
     </div>
