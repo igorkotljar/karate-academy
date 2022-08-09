@@ -1,7 +1,6 @@
 import React from 'react'
-import NavBar from './NavBar'
-import ComingSoon from './ComingSoon'
-import ContaftForm from './ContaftForm'
+import NavBar from '../components/NavBar'
+import ContaftForm from '../components/ContaftForm'
 
 function Contact() {
   return (

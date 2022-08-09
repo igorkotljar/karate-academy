@@ -1,10 +1,10 @@
-import "./App.css";
-import Contact from "./Contact";
-import NavBar from "./NavBar";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Home from "./Home";
+import "./styles/App.css";
+import Contact from "./pages/Contact";
+import NavBar from "./components/NavBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
 import React from "react";
-import Services from "./Services";
+import Services from "./pages/Services";
 
 
 function App() {

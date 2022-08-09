@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
-import CatAPI from "./CatAPI";
-import DogAPI from "./DogAPI";
+import NavBar from "../components/NavBar";
+import CatAPI from "../API/CatAPI";
+import DogAPI from "../API/DogAPI";
 import { Grid } from "@mui/material";
 
 function Home() {
