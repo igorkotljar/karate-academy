@@ -4,11 +4,15 @@ import React, {useState} from 'react'
 function MyTestState() {
 
     let [count, setCount] = useState(null);
-    let msg = "You clicked this amount of times: "
+    let msg = "Try to hit 11 times "
  
-    if (count === 11) {
+    if (count === 7) {
+        msg = "Almost there! "
+    } else if (count == 11) {
         count = null;
-        msg = "Lets try again"
+        msg = "NOT EVEN CLOSE"
+    } else {
+        
     }
     
 
