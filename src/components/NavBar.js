@@ -13,8 +13,8 @@ const [open, setOpen] = useState(false);
                 QA Shop
             </div>
             <ul className='nav-links' style={{transform: open ? "translateX(0px)" : ""}}>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/">Product</Link></li>
+                <li><Link to="/">Fetching APIs</Link></li>
+                <li><Link to="/">ToDo</Link></li>
                 <li><Link to="/services">Services</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
                 
