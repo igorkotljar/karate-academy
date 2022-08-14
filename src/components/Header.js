@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import Button from "@mui/material/Button";
 import bgVideo from "../assets/karate_pirate_video.mp4";
 import Welcome from "./Welcome";
+import SocialLinks from "./SocialLinks";
 
 function Header() {
   return (
@@ -10,8 +10,11 @@ function Header() {
       <Grid container>
         <Grid xs={12}>
           <div className="welcome">
+            <Grid xs={12}>
+            <SocialLinks/>
+            </Grid>
             <video src={bgVideo} autoPlay loop muted />
-            <Grid xs={12} md={4}>
+            <Grid xs={12} md={5} lg={5}>
               <Welcome />
             </Grid>
           </div>

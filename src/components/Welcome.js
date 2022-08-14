@@ -6,8 +6,8 @@ function Welcome() {
     <div className="welcomeText">
       <h1 style={{fontSize: 45}}>"Train with both heart and soul without worrying about theory."</h1>
       <p style={{fontSize: 18, margin: 10}}>- Gichin Funakoshi</p>
-      <Button variant="contained" color="error" style={{margin: 10}}>
-        Learn More
+      <Button variant="contained" color="error" style={{margin: 10, zIndex: 1}}>
+        Learn More 
       </Button>
     </div>
   );

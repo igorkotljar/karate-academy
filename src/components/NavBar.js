@@ -20,7 +20,6 @@ const [open, setOpen] = useState(false);
                 <li><Link to="/services"><Button variant='text' style={{color:"white"}}>GALLERY</Button></Link></li>
                 <li><Link to="/contact"><Button variant='text' style={{color:"white"}}>CONTACTS</Button></Link></li>
                 <li><Link to="/"><Button variant='contained' color="success">EVENTS</Button></Link></li>
-                
             </ul>
             <i onClick={() => setOpen(!open)} className="fa-solid fa-bars burger"></i>
         </nav>
