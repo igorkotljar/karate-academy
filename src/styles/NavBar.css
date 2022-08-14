@@ -2,10 +2,10 @@
 nav {
     display: flex;
     justify-content: space-around;
-    min-height: 10vh;
+    min-height: 13vh;
     align-items: center;
     font-family: 'Inter', sans-serif;
-    background-color: #05668d;
+    background-color: #000b24;
     color: #fff;
   }
   
@@ -13,6 +13,15 @@ nav {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
+  }
+
+  nav .topLogo {
+    color:#c00010;
+  }
+
+  nav .botLogo {
+    color: #c48900;
   }
   
   nav .nav-links {
@@ -29,7 +38,7 @@ nav {
   }
   
   nav .nav-links a {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: normal;
     cursor: pointer;
     text-decoration: none;
@@ -54,7 +63,7 @@ nav {
       top: 0;
       left: 0;
       height: 100vh;
-      background: #05668d;
+      background: #000b24;
       padding: 40px;
       width: 50%;
       transform: translateX(-800px);
