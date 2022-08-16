@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/My-First-React/static/css/main.4c5186ad.css",
-    "main.js": "/My-First-React/static/js/main.41be07e3.js",
+    "main.css": "/My-First-React/static/css/main.546c1689.css",
+    "main.js": "/My-First-React/static/js/main.5e8a4de6.js",
+    "static/media/karate_pirate_video.mp4": "/My-First-React/static/media/karate_pirate_video.cda1cb057f05ae609ee0.mp4",
     "static/media/devops.gif": "/My-First-React/static/media/devops.8030209b855cfd8b419a.gif",
     "static/media/react.gif": "/My-First-React/static/media/react.c94a2c770d1244558573.gif",
+    "static/media/348s (2).png": "/My-First-React/static/media/348s (2).964256b16f2767542ec8.png",
     "static/media/selenium.png": "/My-First-React/static/media/selenium.8acd00a91ebc15e2633e.png",
     "index.html": "/My-First-React/index.html",
-    "main.4c5186ad.css.map": "/My-First-React/static/css/main.4c5186ad.css.map",
-    "main.41be07e3.js.map": "/My-First-React/static/js/main.41be07e3.js.map"
+    "main.546c1689.css.map": "/My-First-React/static/css/main.546c1689.css.map",
+    "main.5e8a4de6.js.map": "/My-First-React/static/js/main.5e8a4de6.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c5186ad.css",
-    "static/js/main.41be07e3.js"
+    "static/css/main.546c1689.css",
+    "static/js/main.5e8a4de6.js"
   ]
 }
