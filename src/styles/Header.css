@@ -1,4 +1,18 @@
 
+.welcomeMessage{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+  font-size: 65px;
+}
+
 video {
   width: 100vw;
   height: 100vh;
@@ -9,10 +23,20 @@ video {
   z-index: -1;
 }
 
-.welcome {
-color: white;
-text-align: center;
-background-color: rgba(0, 0, 0, 0.541);
-height: 100vh;
+.backgroundImage {
+background-image: url("../assets/kata.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100vw;
+height: 70vh;
 }
 
+
+.grayContainer {
+  background: #000;
+  position:relative;
+  width: 100vw;
+  height:57vh;
+  margin:0 auto;
+  opacity: 0.7;
+  }

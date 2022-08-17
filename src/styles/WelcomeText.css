@@ -1,4 +1,6 @@
 .welcomeText{
-    padding: 40px;
-    padding-top: 10%;
+    padding-top: 15%;
+    color: white;
+    text-align: center;
+    background-color: red;
 }
