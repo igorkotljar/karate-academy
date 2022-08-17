@@ -1,6 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
 import bgVideo from "../assets/karate_pirate_video.mp4";
+import bgPhoto from "../assets/kata.jpg"
 import Welcome from "./Welcome";
 import SocialLinks from "./SocialLinks";
 

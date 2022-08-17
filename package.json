@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "https://igorkotljar.github.io/My-First-React/",
+  "homepage": "https://igorkotljar.github.io/karate-academy/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.3",
