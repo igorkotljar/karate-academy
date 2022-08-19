@@ -12,38 +12,71 @@ function WhyUs() {
         </Grid>
         <Grid xs={12} md={7} style={{ textAlign: "center" }}>
           <div className="whyUs-text">
-            <h2 style={{ textAlign: "left", fontSize: 36 }}>WHY CHOOSE US</h2>
-            <p style={{ marginTop: 15, textAlign: "left" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              egestas est pharetra metus elementum euismod. Donec pulvinar id
-              felis sed fringilla.
-            </p>
-            <p style={{ marginTop: 20, textAlign: "left" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              egestas est pharetra metus elementum euismod. Donec pulvinar id
-              felis sed fringilla. Nulla sit amet ullamcorper dui. Ut quis nibh
-              quis libero pharetra ullamcorper pretium in eros. Suspendisse nisl
-              quam, eleifend eu nibh sit amet, molestie rhoncus magna. Donec
-              maximus finibus augue, quis pretium purus. Interdum et malesuada
-              fames ac ante ipsum primis in faucibus. Phasellus congue quis
-              ipsum a ornare. Duis sollicitudin molestie neque, eget rhoncus
-              sapien finibus sed. Vivamus sed nunc ac velit tristique convallis.
-              Sed ex tellus, imperdiet eu tincidunt scelerisque, luctus commodo
-              justo. Maecenas dignissim lacus id nunc imperdiet congue. Cras id
-              ex ac purus tempor pharetra at et diam. Aliquam quis lectus cursus
-              ligula gravida cursus a in eros. Vivamus nibh nulla, iaculis sed
-              neque eget, varius pulvinar ipsum. Aliquam id lacus fringilla,
-              commodo leo id, dapibus massa. Praesent porta faucibus dolor ac
-              tristique. Pellentesque bibendum, mauris at vestibulum malesuada,
-              felis odio interdum est, nec tempor libero arcu vitae nulla.
-              Suspendisse vehicula gravida augue et pretium. Mauris eget
-              ultrices sem, sollicitudin malesuada eros. Suspendisse molestie
-              convallis mauris, at pellentesque neque iaculis in.
-            </p>
-            <div style={{textAlign:"left", marginTop: 20}}>
-            <Button variant="contained" color="success" size="large">
-              Learn more about us
-            </Button>
+            <Grid xs={12}>
+              <h2 style={{ textAlign: "left", fontSize: 36}}>WHY CHOOSE US</h2>
+            </Grid>
+            <Grid xs={12} md={6}>
+              <p style={{ marginTop: 15, textAlign: "left" }}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Maecenas egestas est pharetra metus elementum euismod. Donec
+                pulvinar id felis sed fringilla. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit.
+              </p>
+            </Grid>
+            <Grid xs={12} md={8}>
+              <div style={{ marginTop: 40, textAlign: "left" }}>
+                <Grid xs={12} md={8} container>
+                  <Grid xs={3}>
+                    <h2 style={{ fontSize: 52 }}>A</h2>
+                  </Grid>
+                  <Grid xs={9}>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Maecenas egestas est pharetra metus elementum euismod.
+                    </p>
+                  </Grid>
+                </Grid>
+                <hr></hr>
+                <Grid xs={6}></Grid>
+              </div>
+            </Grid>
+            <Grid xs={12} md={8}>
+              <div style={{ marginTop: 40, textAlign: "left" }}>
+                <Grid xs={12} md={8} container>
+                  <Grid xs={3}>
+                    <h2 style={{ fontSize: 52 }}>B</h2>
+                  </Grid>
+                  <Grid xs={9}>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Maecenas egestas est pharetra metus elementum euismod.
+                    </p>
+                  </Grid>
+                </Grid>
+                <hr></hr>
+                <Grid xs={6}></Grid>
+              </div>
+            </Grid>
+            <Grid xs={12} md={8}>
+              <div style={{ marginTop: 40, textAlign: "left" }}>
+                <Grid xs={12} md={8} container>
+                  <Grid xs={3}>
+                    <h2 style={{ fontSize: 52 }}>C</h2>
+                  </Grid>
+                  <Grid xs={9}>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Maecenas egestas est pharetra metus elementum euismod.
+                    </p>
+                  </Grid>
+                </Grid>
+                <hr></hr>
+              </div>
+            </Grid>
+            <div style={{ textAlign: "left", marginTop: 20 }}>
+              <Button variant="contained" color="success" size="large">
+                Learn more about us
+              </Button>
             </div>
           </div>
         </Grid>

@@ -1,5 +1,5 @@
 .whyUs-text {
-  padding: 25px;
+  padding: 45px;
   color: white;
   background-color: #5FC7AE;
   height: 70vh;
@@ -14,4 +14,8 @@
   top: 0px;
   right: 0px;
   background-origin: padding-box;
+}
+
+hr{
+    margin: 40px;
 }
