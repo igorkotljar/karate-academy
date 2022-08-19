@@ -1,7 +1,8 @@
 
 nav {
     display: flex;
-    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
     min-height: 13vh;
     align-items: center;
     font-family: 'Inter', sans-serif;
@@ -55,6 +56,11 @@ nav {
   }
 
   @media all and (max-width: 1024px){
+    nav{
+      justify-content: space-around;
+
+    }
+
     nav .burger {
       display: block;
       
