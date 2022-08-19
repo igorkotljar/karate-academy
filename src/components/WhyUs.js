@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Button, Grid } from "@mui/material";
 import { width } from "@mui/system";
 import React from "react";
 import champs from "../assets/champions.JPG";
@@ -40,6 +40,11 @@ function WhyUs() {
               ultrices sem, sollicitudin malesuada eros. Suspendisse molestie
               convallis mauris, at pellentesque neque iaculis in.
             </p>
+            <div style={{textAlign:"left", marginTop: 20}}>
+            <Button variant="contained" color="success" size="large">
+              Learn more about us
+            </Button>
+            </div>
           </div>
         </Grid>
       </Grid>
