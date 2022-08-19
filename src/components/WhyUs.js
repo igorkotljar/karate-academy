@@ -7,10 +7,10 @@ function WhyUs() {
   return (
     <div>
       <Grid container>
-        <Grid xs={12} md={5} style={{ padding: 0}}>
+        <Grid xs={12} md={6} style={{ padding: 0}}>
           <div className="whyUs-bg"></div>
         </Grid>
-        <Grid xs={12} md={7}>
+        <Grid xs={12} md={6}>
           <div className="whyUs-text">
             <Grid xs={12} md={6}>
               <h2 style={{ textAlign: "center", fontSize: 36}}>WHY CHOOSE US</h2>
