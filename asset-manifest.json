@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/karate-academy/static/css/main.fac108c7.css",
-    "main.js": "/karate-academy/static/js/main.e8a861b5.js",
-    "static/media/karate_pirate_video.mp4": "/karate-academy/static/media/karate_pirate_video.cda1cb057f05ae609ee0.mp4",
+    "main.css": "/karate-academy/static/css/main.f908bb98.css",
+    "main.js": "/karate-academy/static/js/main.a59bf47d.js",
     "static/media/devops.gif": "/karate-academy/static/media/devops.8030209b855cfd8b419a.gif",
+    "static/media/kata.jpg": "/karate-academy/static/media/kata.c89ed569b458c4bff636.jpg",
+    "static/media/champions.JPG": "/karate-academy/static/media/champions.949c2649f2a4f3593824.JPG",
     "static/media/react.gif": "/karate-academy/static/media/react.c94a2c770d1244558573.gif",
-    "static/media/348s (2).png": "/karate-academy/static/media/348s (2).964256b16f2767542ec8.png",
     "static/media/selenium.png": "/karate-academy/static/media/selenium.8acd00a91ebc15e2633e.png",
     "index.html": "/karate-academy/index.html",
-    "main.fac108c7.css.map": "/karate-academy/static/css/main.fac108c7.css.map",
-    "main.e8a861b5.js.map": "/karate-academy/static/js/main.e8a861b5.js.map"
+    "main.f908bb98.css.map": "/karate-academy/static/css/main.f908bb98.css.map",
+    "main.a59bf47d.js.map": "/karate-academy/static/js/main.a59bf47d.js.map"
   },
   "entrypoints": [
-    "static/css/main.fac108c7.css",
-    "static/js/main.e8a861b5.js"
+    "static/css/main.f908bb98.css",
+    "static/js/main.a59bf47d.js"
   ]
 }
