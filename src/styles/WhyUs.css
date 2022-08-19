@@ -1,7 +1,7 @@
 .whyUs-text {
-    padding:20px;
+  padding: 20px;
   color: white;
-  background-color: #5FC7AE;
+  background-color: #5fc7ae;
   height: 100%;
 }
 
@@ -9,20 +9,18 @@
   background-image: url("../assets/champions.JPG");
   background-size: cover;
   background-repeat: no-repeat;
-    padding: 20px;
+  padding: 20px;
   height: 100%;
   background-origin: padding-box;
 }
 
-hr{
-    margin: 40px;
+hr {
+  margin: 40px;
 }
 
-@media all and (max-width: 1024px){
-
-    .whyUs-bg {
-        background-size: cover;
-        height: 70vh;
-    }
-
+@media all and (max-width: 1024px) {
+  .whyUs-bg {
+    background-size: cover;
+    height: 70vh;
+  }
 }
