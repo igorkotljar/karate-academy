@@ -1,0 +1,18 @@
+.whyUs-text {
+  padding: 25px;
+  color: white;
+  background-color: #c7b75f;
+  height: 70vh;
+}
+
+.whyUs-bg {
+  background-image: url("../assets/champions.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 25px;
+  height: 70vh;
+  top: 0px;
+  right: 0px;
+  background-origin: padding-box;
+
+}

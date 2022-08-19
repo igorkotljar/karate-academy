@@ -57,8 +57,10 @@ nav {
   @media all and (max-width: 1024px){
     nav .burger {
       display: block;
+      
     }
     nav .nav-links {
+      z-index: 1;
       position: absolute;
       display: block;
       top: 0;
@@ -70,6 +72,7 @@ nav {
       transform: translateX(-800px);
     }
     nav .nav-links li {
+      z-index: 1;
       padding: 25px;
       border-bottom: 1px solid #ccc;
     }
