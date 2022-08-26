@@ -6,7 +6,7 @@ import champs from "../assets/champions.JPG";
 function WhyUs() {
   return (
     <div>
-      <Grid container>
+      <Grid container >
         <Grid xs={12} md={6} style={{ padding: 0}}>
           <div className="whyUs-bg"></div>
         </Grid>
@@ -31,6 +31,7 @@ function WhyUs() {
                   </Grid>
                   <Grid xs={12} md={9}>
                     <p>
+                    
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Maecenas egestas est pharetra metus elementum euismod.
                     </p>
@@ -72,7 +73,7 @@ function WhyUs() {
               </div>
             </Grid>
             <Grid xs={12} md={6}>
-            <div style={{ textAlign: "center", marginTop: 20 }}>
+            <div style={{ textAlign: "center" }}>
               <Button variant="contained" color="success" size="large">
                 Learn more about us
               </Button>

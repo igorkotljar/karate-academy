@@ -6,7 +6,7 @@
 }
 
 .whyUs-bg {
-  background-image: url("../assets/champions.JPG");
+  background-image: url("../assets/champions2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -18,7 +18,7 @@ hr {
   margin: 40px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 899px) {
   .whyUs-bg {
     background-size: cover;
     height: 70vh;
