@@ -46,7 +46,7 @@ function NavBar() {
           </li>
           <li>
             <Link to="/">
-              <Button variant="contained" color="success" size="large">
+              <Button variant="contained" style={{backgroundColor: "#5fc7ae"}} size="large">
                 EVENTS
               </Button>
             </Link>

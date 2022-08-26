@@ -6,14 +6,15 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-import Traditional from "../assets/traditionalkarate.JPG";
+import Olympic from "../assets/olympic.JPG";
+import Traditional from "../assets/traditional.JPG";
 
 function Intro() {
   return (
-    <div className="intro" style={{marginTop: 20}}>
-      <Grid container justify="center" >
-      <Grid xs={12} lg={3} align="center"></Grid>
-        <Grid xs={12} lg={3} align="center"  style={{padding: 20}}>
+    <div className="intro" style={{ marginTop: 20, paddingBottom: 30 }}>
+      <Grid container justify="center">
+        <Grid xs={12} lg={3} align="center"></Grid>
+        <Grid xs={12} lg={3} align="center" style={{ padding: 20 }}>
           <h2>Classes for beginers</h2>
           <Card style={{ maxWidth: 345 }}>
             <CardMedia
@@ -47,13 +48,13 @@ function Intro() {
             </CardActions>
           </Card>
         </Grid>
-        <Grid xs={12} lg={3} align="center" style={{padding: 20}}>
+        <Grid xs={12} lg={3} align="center" style={{ padding: 20 }}>
           <h2>Advanced Karate</h2>
           <Card style={{ maxWidth: 345 }}>
             <CardMedia
               component="img"
               height="180"
-              image={Traditional}
+              image={Olympic}
               alt="green iguana"
             />
             <CardContent>

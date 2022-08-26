@@ -1,9 +1,9 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 import { Grid } from "@mui/material";
 import Header from "../components/Header";
 import WhyUs from "../components/WhyUs";
 import Intro from "../components/Intro";
+import Athlets from "../components/Athlets";
 
 function Home() {
   return (
@@ -18,6 +18,9 @@ function Home() {
         </Grid>
         <Grid xs={12}>
         <Intro/>
+        </Grid>
+        <Grid xs={12}>
+          <Athlets/>
         </Grid>
       </Grid>
     </div>
